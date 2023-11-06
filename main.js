@@ -1,14 +1,17 @@
-function tocarTeclaGrilo(){
+function tocaSomAplausos(){
+    document.querySelector("#som_tecla_Aplausos").play();   
+}
 
-    document.querySelector('.som_tecla_grilo').onclick =tocarTeclaGrilo ;
+const listaDeTeclas = document.querySelectorAll('.tecla');
+listaDeTeclas[2].onclick = tocaSomAplausos
+
+let contador =0;
+//Estrutura de repetição - Enquanto
+while(contador<9){
+    listaDeTeclas[0].onclick=
+    contador = 1;
+
 }
-function tocarTrombetas(){
-    document.querySelector('som_tecla_trombeta').onclick =tocarTrombetas;
-}
-function tocarVaia(){
-    document.querySelector('som_tecla_vaia').onclick = tocarVaia;
-}
-function tocarRisada(){
-    document.querySelector('som_tecla_risada').onclick = tocarRisada;
-}
+
+
 
